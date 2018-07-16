@@ -1,8 +1,5 @@
----
-output: html_document
----
 
-# Courtney's County Health Rankings Project
+# County Health Rankings Project
 
 ## County Data Assembly.R
 
