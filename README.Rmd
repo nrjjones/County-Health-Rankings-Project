@@ -28,11 +28,13 @@ Function needed to search for PPs.
 
 ## Not included 
 
-secrets.R - Loads Nathan's Google Maps API key. To reproduce searches, get a Google API key and save a file called secrets.R in the main folder with this line: 
+secrets.R - Loads Nathan's Google Maps API key. 
+
+To reproduce searches, sign up for Google Cloud Services account, get a Maps API key, and save a file called secrets.R in the main folder with this line and your Google API key between the quotation marks: 
 
 register_google(key = "GOOGLE KEY HERE")
 
-It will look like this:
+**NOTE**: The code runs about 3000 queries against the Google API.  
 
-register_google(key = "AIfhSyAASFMBgLv5a3lGA0NYTreExan_c5tg5ow")
+**NOTE**: Don't upload key to GitHub!
 
