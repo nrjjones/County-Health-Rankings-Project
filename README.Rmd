@@ -1,0 +1,41 @@
+---
+output: html_document
+---
+
+# Courtney's County Health Rankings Project
+
+## County Data Assembly.R
+
+Contains code to load, clean, and merge data.  
+
+## /raw
+
+Raw data from County Health Rankings, Courtney, and Jenna's emails.  Also included is output 
+from Google Maps distance queries. 
+
+## /out
+
+Contains files output during analysis: 
+
+- Full dataset: Courtney.csv
+- Distances from all counties to PPs and NICUs. 
+- Nearest PPs and NICUs.  
+
+## /pst 
+
+Zip folders with delivered files. 
+
+## /fun
+
+Function needed to search for PPs.  
+
+## Not included 
+
+secrets.R - Loads Nathan's Google Maps API key. To reproduce searches, get a Google API key and save a file called secrets.R in the main folder with this line: 
+
+register_google(key = "GOOGLE KEY HERE")
+
+It will look like this:
+
+register_google(key = "AIfhSyAASFMBgLv5a3lGA0NYTreExan_c5tg5ow")
+

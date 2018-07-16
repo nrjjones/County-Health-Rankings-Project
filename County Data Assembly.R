@@ -62,7 +62,8 @@ names(clinic)[2] <- "county_raw"
 
 CHR <- left_join(CHR, clinic)
 
-# Medicaid, poverty, HS education
+# From Rankings: poverty, smoking, obese, teen birth rate, uninsured, some college,
+#                unemployed, child mortality, infant mortality, eligible for free lunch
 
 rankings <- read_csv("./raw/rankingsmeasures.csv")
 rankings <- select(rankings, -c("State", "County"))
